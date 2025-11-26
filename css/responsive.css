@@ -1,0 +1,109 @@
+/* `xs` returns only a ruleset and no media query */
+@media (max-width: 320px) {
+    .ftBtn {
+        display: none;
+    }
+
+    .menu {
+        z-index: 9999;
+    }
+
+    .navbar-toggler {
+        border-color: #fff;
+    }
+
+    .navbar-toggler span.navbar-toggler-icon {
+        background-color: #fff !important;
+        font-size: 16px;
+    }
+
+    .menu .navbar-nav .nav-item .nav-link {
+
+        display: block;
+        background: #fff;
+
+    }
+
+    .leadingPartContent h2 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+    .manufactureDetail h3 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (min-width: 320.1px) and (max-width: 576px) {
+    .ftBtn {
+        display: none;
+    }
+
+    .menu {
+        z-index: 9999;
+    }
+
+    .navbar-toggler {
+        border-color: #fff;
+    }
+
+    .navbar-toggler span.navbar-toggler-icon {
+        background-color: #fff !important;
+        font-size: 16px;
+    }
+
+    .menu .navbar-nav .nav-item .nav-link {
+
+        display: block;
+        background: #fff;
+
+    }
+
+    .leadingPartContent h2 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+    .manufactureDetail h3 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 576.1px) and (max-width: 768px) {
+
+
+    .menu {
+        z-index: 9999;
+    }
+
+    .navbar-toggler {
+        border-color: #fff;
+    }
+
+    .navbar-toggler span.navbar-toggler-icon {
+        background-color: #fff !important;
+    }
+
+    .menu .navbar-nav .nav-item .nav-link {
+
+        display: block;
+        background: #fff;
+
+    }
+
+
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width: 768.1px) and (max-width: 992px) {}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (min-width: 992.1px) and (max-width: 1200px) {}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (min-width: 1200.1px) and (max-width: 1400px) {}
